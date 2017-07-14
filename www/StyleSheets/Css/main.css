@@ -1,0 +1,53 @@
+
+a {
+	text-decoration: none;
+	color: #111;
+}
+
+.navBar {
+	position: absolute;
+	top: -.17em;
+	font-family: 'Helvetica' , sans-serif;
+	font-size: 30em;
+	font-weight: 800;
+}
+
+.linkFade {
+    text-align: center;
+    margin: auto;
+    color: #111;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.leftSideContainer {
+	position: fixed;
+	left: 0em;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 3em;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #111;
+	top: 50%;
+	
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.rightSideContainer {
+	position: fixed;
+	right:0em;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 3em;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #111;
+	top: 50%;
+	
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.linkFade:hover {
+	color: #00f;
+}
